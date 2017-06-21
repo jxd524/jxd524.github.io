@@ -1,0 +1,11 @@
+{
+    "webs":[
+        {"version": 1, "webName": "笔趣阁", "homeURL": "/iFreeTime/configV2/bq.json"},
+        {"version": 1, "webName": "宜搜", "homeURL": "/iFreeTime/configV2/es.json"},
+        {"version": 1, "webName": "零点看书", "homeURL": "/iFreeTime/configV2/ld.json"},
+        {"version": 1, "webName": "自动搜索", "homeURL": "/iFreeTime/configV2/zs.json"}
+    ],
+    "hotkeys":[
+        {"version": 1, "webName": "百度热词", "homeURL": "/iFreeTime/configV2/bhKey.json"},
+    ]
+}
