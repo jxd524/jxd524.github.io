@@ -11,6 +11,7 @@
 echo "set apt-get source"
 echo "deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ jessie main non-free contrib" | sudo tee /etc/apt/sources.list
 echo "deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ jessie main non-free contrib" | sudo tee -a /etc/apt/sources.list
+echo "deb https://mirrors.ustc.edu.cn/archive.raspberrypi.org/ jessie main ui" | sudo tee /etc/apt/sources.list.d/raspi.list
 
 echo "begin apt-get update"
 sudo apt-get update
