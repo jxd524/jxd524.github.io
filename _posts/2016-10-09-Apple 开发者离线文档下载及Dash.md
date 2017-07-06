@@ -3,7 +3,7 @@ layout: post
 title:  "Apple 开发者离线文档下载及Dash"
 author: Terry
 date:   2016-10-09 14:55:00 +0800
-categories: iOS开发
+categories: iOS
 tags: Dash, XCode8, 开发者离线文档
 ---
 

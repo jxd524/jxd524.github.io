@@ -3,7 +3,7 @@ layout: post
 title:  "AFNetworking 请求与响应格式说明"
 author: Terry
 date:   2015-09-23 10:00:00 +0800
-categories: iOS开发
+categories: iOS
 tags: AFNetworking 请求与响应格式说明
 ---
 

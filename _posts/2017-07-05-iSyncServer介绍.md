@@ -4,7 +4,7 @@ title:  "iSync文件管理服务器版本"
 author: Terry
 date:   2017-07-05 11:14
 categories: python
-tag: iPrivate 文件管理 同步 云盘 iSyncServer
+tags: iPrivate 文件管理 同步 云盘 iSyncServer
 ---
 
 * content
