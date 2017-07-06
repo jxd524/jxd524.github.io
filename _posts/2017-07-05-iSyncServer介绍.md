@@ -29,11 +29,8 @@ tag: iPrivate 文件管理 同步 云盘 iSyncServer
 
 
 使用以下脚本自动安装**iSyncServer**
-
 脚本会自动更新操作系统,并安装软件: git, ffmpeg, pyenv, python 3.5.2, 虚拟环境iSyncServerEnv3.5.2, Pillow, Flask
-
 此脚本只在raspbian lite 版本上测试通过
-
 在调用脚本前,你最好更换下树莓派的数据源,做一些基本配置.可以参考下[树莓派配置](http://icc.one/2017/06/28/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/#提高apt-get访问速度)
 
 ```shell
@@ -197,7 +194,7 @@ typedef datetime int
 标志文件是否已经存在,使用[scanDisk](#scanDisk)时,使用的状态的:kFileStatusFromLocal
 当需要服务端生成缩略图时,其相应字段需要设置为 kFileStatusFromLocal,否则不进行缩略图生成
 
-```objc
+```python
 kFileStatusFromLocal        = 0 # 来自本地
 kFileStatusBuildError       = 1 # 本地生成时出错
 kFileStatusFromUploading    = 2 # 来自上传
@@ -225,6 +222,7 @@ kFileTypeFile       = 1 << 4
 ```
 
 <span id="helpInfo">HelpInfo</span>定义: 记录自带的辅助信息,这些信息对服务器没有意义,只负责保存
+
 ```json
 {
     "helpInt": 12,
@@ -234,6 +232,7 @@ kFileTypeFile       = 1 << 4
 ```
 
 <span id="userInfo">**UserInfo**</span>: 用户信息
+
 ```json
 {
     "id": 12,
@@ -246,6 +245,7 @@ kFileTypeFile       = 1 << 4
 ```
 
 <span id="catalogInfo">**CatalogInfo**</span>: 目录信息
+
 ```json
 {
     "id": 123,
@@ -263,6 +263,7 @@ kFileTypeFile       = 1 << 4
 ```
 
 <span id="fileInfo">**FileInfo**</span>: 文件信息
+
 ```json
 {
     "id": 123,
@@ -298,6 +299,7 @@ PS:
 再上传后续内容.参考Api: [uploadFileInfo](#uploadFileInfo), [uploadFile](#uploadFile)
 
 <span id="pageInfo">**PageInfo**</span>: 分页信息
+
 ```json
 {
     "pageIndex": 0,
@@ -488,16 +490,18 @@ PS:
 | 3 | 客户端上传完成 |
 
 
-### 请求指定的文件: downFile.icc< ext >
+### 请求指定的文件: downFile.icc<ext>
 
-** < ext > **: 表示扩展名,这是为了iOS在线播放而做的修改.它不参与计算,只是一个URL的表现形式
+**<ext>**: 表示扩展名,这是为了iOS在线播放而做的修改.它不参与计算,只是一个URL的表现形式
+
 如下面两次方式都是可行的:
+
 downFile.icc?id=12
+
 downFile.icc.mp4?id=12
 
 | 请求方法 | GET |
 | -------- | --- |
-|||
 | 请求参数 | 类型 | 说明 |
 | id | int | 文件Id |
 |||
