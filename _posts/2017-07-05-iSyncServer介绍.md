@@ -29,7 +29,9 @@ tag: iPrivate 文件管理 同步 云盘 iSyncServer
 
 
 使用以下脚本自动安装**iSyncServer**
+
 脚本会自动更新操作系统,并安装软件: git, ffmpeg, pyenv, python 3.5.2, 虚拟环境iSyncServerEnv3.5.2, Pillow, Flask
+
 此脚本只在raspbian lite 版本上测试通过
 
 在调用脚本前,你最好更换下树莓派的数据源,做一些基本配置.可以参考下[树莓派配置](http://icc.one/2017/06/28/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/#提高apt-get访问速度)
@@ -59,13 +61,13 @@ curl "http://icc.one/files/raspberrypi/setupiSyncServer.sh" | bash
 
 在根目录下创建名为 **appConfigs.json** 的配置文件.它将影响整个服务器.若没有配置文件,则使用默认值
 以下字段有效
-**logFileName**: 日志存在路径,默认是 ./building/appLog.log
-**thumbPath**: 生成缩略图时存放的总路径,默认 ./building/thumbs
-**defaultUserPath**: 默认的用户路径,只有当创建了用户,但此用户还没有一个目录时有效,默认 ./building/users
-**shareUrlThreshold**: 分享URL的最大数量,默认1000,
-**shareUrlTimeout**: 分享URL的最大缓存时间,默认1800, 单位:秒
-**onlineThreshold**: 在线人数极值,超过此值,则会进行超时处理,默认100
-**onlineTimeout**: 在线用户无活动保持的最大时间,默认 3600, 单位: 秒
+* **logFileName**: 日志存在路径,默认是 ./building/appLog.log
+* **thumbPath**: 生成缩略图时存放的总路径,默认 ./building/thumbs
+* **defaultUserPath**: 默认的用户路径,只有当创建了用户,但此用户还没有一个目录时有效,默认 ./building/users
+* **shareUrlThreshold**: 分享URL的最大数量,默认1000,
+* **shareUrlTimeout**: 分享URL的最大缓存时间,默认1800, 单位:秒
+* **onlineThreshold**: 在线人数极值,超过此值,则会进行超时处理,默认100
+* **onlineTimeout**: 在线用户无活动保持的最大时间,默认 3600, 单位: 秒
 
 可以使用 **configs.py** 来配置, **configs.py** 支持以上字段的设置,如下例子
 
@@ -102,7 +104,7 @@ python configs.py --onlineThreshold=500 --thumbPath=/Users/terry/work/thumbPaths
 
 
 
-```bash
+```shell
 #根据同目录下 scanConfig.json 来扫描数据
 python scanDisk.py
 
@@ -162,7 +164,7 @@ eg:
 {
     "code": 0,
     "msg": "error message",
-    "data": 不同的命令有不同的结构 & Different commands have different structures
+    "data": "不同的命令有不同的结构"
 }
 ```
 
@@ -171,7 +173,7 @@ eg:
 <span id="datetime">**datetime**</span>:包含日期与时间的类型.
 1970到现在的秒数,如 2017-04-19 03:06:44 +0000  表示为: 1492571204
 
-```json
+```objc
 typedef datetime int
 ```
 
@@ -180,7 +182,7 @@ typedef datetime int
 
 与iOS中UIImageOrientation的具体对应关系表
 
-| UIImageOrientation | 原始exif中Orientation 值 <br> The original exif in the orientation value | 生成缩略图时旋转 <br> Rotate when generating thumbnails |
+| UIImageOrientation | 原始exif中Orientation 值 | 生成缩略图时旋转 |
 | ------ | ------ | ------ |
 | UIImageOrientationUp | 1 | 不需要旋转 |
 | UIImageOrientationDown | 3 | 180° |
@@ -195,7 +197,7 @@ typedef datetime int
 标志文件是否已经存在,使用[scanDisk](#scanDisk)时,使用的状态的:kFileStatusFromLocal
 当需要服务端生成缩略图时,其相应字段需要设置为 kFileStatusFromLocal,否则不进行缩略图生成
 
-```basic
+```objc
 kFileStatusFromLocal        = 0 # 来自本地
 kFileStatusBuildError       = 1 # 本地生成时出错
 kFileStatusFromUploading    = 2 # 来自上传
@@ -214,7 +216,7 @@ kFileStatusFromUploaded     = 3 # 来自上传,并且已经上传完成
 
 <span id="fileType">**fileType**</span>: 媒体类型定义
 
-```basic
+```objc
 kFileTypeImage      = 1 << 0
 kFileTypeGif        = 1 << 1
 kFileTypeVideo      = 1 << 2
@@ -288,9 +290,9 @@ kFileTypeFile       = 1 << 4
 ```
 
 PS:
-**uploadingThumbSize**: 表示当前已经上传的小缩略图大小
-**uploadingScreenSize**: 大缩略图
-**uploadingOriginSize**: 原始文件
+* **uploadingThumbSize**: 表示当前已经上传的小缩略图大小
+* **uploadingScreenSize**: 大缩略图
+* **uploadingOriginSize**: 原始文件
 以上三个参数,只有当文件还没有上传成功时才会返回.用于断点上传功能.
 客户端在上传完文件信息之后,在每次上传文件内容之前,都可以先获取已上传字节数后,
 再上传后续内容.参考Api: [uploadFileInfo](#uploadFileInfo), [uploadFile](#uploadFile)
@@ -594,10 +596,8 @@ shareFile.icc.mov?shareKey=xxx
 
 | 请求方法 | POST |
 | -------- | ----- |
-
 |以下参数要与URL一起生成,如: uploadFile.icc?id=1&obp=82331&tbp=0&sbp=100&cm=sha1 |
 |--- |
-
 | 请求参数 | 类型 | 说明 |
 | ---- | ---- | ---- |
 | id | int | 文件ID |
