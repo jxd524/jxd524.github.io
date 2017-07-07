@@ -25,8 +25,8 @@ tags: iPrivate 文件管理 同步 云盘 iSyncServer
 ![](/files/20170707_iSyncServer1.png)
 左边是在iphone上的效果, 右边是在树莓派上的效果
 
-再来看看我录制的一个视频
-<embed src='http://player.56.com/v_MTQ1NTc2Mzk1.swf' type='application/x-shockwave-flash' width='480' height='395'/>
+再来看看我录制的一个视频, [点击打开](https://v.qq.com/x/page/x0522gkcfwr.html)
+<iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=x0522gkcfwr&tiny=0&auto=0" allowfullscreen></iframe>
 
 # 安装
 
