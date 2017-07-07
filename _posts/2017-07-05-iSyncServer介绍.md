@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "iSync文件管理服务器版本"
+title:  "iSyncServer文件管理服务器版本"
 author: Terry
 date:   2017-07-05 11:14
 categories: python
@@ -21,7 +21,16 @@ tags: iPrivate 文件管理 同步 云盘 iSyncServer
 
 　　**客户端**需要根据需求,实现以下API接口.已提供的iOS客户端: [iPrivate](https://itunes.apple.com/us/app/iprivate-protect-your-privacy-photo-video/id992360900?l=zh&ls=1&mt=8)
 
+来张图片看看效果
+![](/files/20170707_iSyncServer1.png)
+左边是在iphone上的效果, 右边是在树莓派上的效果
+
+再来看看我录制的一个视频
+<embed src='http://player.56.com/v_MTQ1NTc2Mzk1.swf' type='application/x-shockwave-flash' width='480' height='395'/>
+
 # 安装
+
+**iSyncServer源码**托管在 [github](https://github.com/jxd524/iSyncServer) 和 [coding](https://coding.net/u/jxd524/p/iSyncServer/git)
 
 ### 在树莓派上安装服务器
 
@@ -29,7 +38,8 @@ tags: iPrivate 文件管理 同步 云盘 iSyncServer
 
 
 使用以下脚本自动安装**iSyncServer**
-脚本会自动更新操作系统,并安装软件: git, ffmpeg, pyenv, python 3.5.2, 虚拟环境iSyncServerEnv3.5.2, Pillow, Flask
+脚本会自动更新操作系统,并安装软件: `git, ffmpeg, pyenv, python 3.5.2, 虚拟环境iSyncServerEnv3.5.2, Pillow, Flask`
+
 此脚本只在raspbian lite 版本上测试通过
 在调用脚本前,你最好更换下树莓派的数据源,做一些基本配置.可以参考下[树莓派配置](http://icc.one/2017/06/28/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/#提高apt-get访问速度)
 
@@ -58,6 +68,7 @@ curl "http://icc.one/files/raspberrypi/setupiSyncServer.sh" | bash
 
 在根目录下创建名为 **appConfigs.json** 的配置文件.它将影响整个服务器.若没有配置文件,则使用默认值
 以下字段有效
+
 * **logFileName**: 日志存在路径,默认是 ./building/appLog.log
 * **thumbPath**: 生成缩略图时存放的总路径,默认 ./building/thumbs
 * **defaultUserPath**: 默认的用户路径,只有当创建了用户,但此用户还没有一个目录时有效,默认 ./building/users
@@ -72,7 +83,7 @@ curl "http://icc.one/files/raspberrypi/setupiSyncServer.sh" | bash
 python configs.py --onlineThreshold=500 --thumbPath=/Users/terry/work/thumbPaths
 ```
 
-也可以直接编辑源码根目录下的 **appConfigs.json** 文件(若不存在,则直接创建)
+也可以直接编辑源码根目录下的 **appConfigs.json** 文件(若不存在,则直接创建),如下例子
 
 ```json
 {
@@ -80,17 +91,21 @@ python configs.py --onlineThreshold=500 --thumbPath=/Users/terry/work/thumbPaths
     "onlineTimeout": 8000,
     "thumbPath": "/Users/terry/work/thumbPaths"
 }
-
 ```
 
 <span id="scanDisk"/>
+
 # 扫描数据(附加功能)
 
 为方便处理磁盘数据,提供了 **scanDisk.py** 来递归扫描指定的目录,将对应的文件和用户信息写入到数据库中
 配置文件外层是一个数组,每个对象拥有 **paths** 和 **users** 属性
+
 **users**: 字典类型,定义用户名与密码
 **paths**: 包含字符串的数组,定义要扫描的路径信息
-**mergeRootPaths**: 布尔类型, 对已经加入到数据库中的路径进行判断,将数据库中的 RootPath 与计算机文件系统路径相一致.默认为 True
+**mergeRootPaths**: 合并根目录, 对已扫描进数据库的路径进行判断,防止过多根目录.默认为 1
+
+一般情况,你只需要根据要求把配置文件写好,然后运行 `python scanDisk.py` 就可以了.以后若你指定的路径有文件变动,你只需要再一次运行命令就能解决问题了
+
 
 具体参数见下表
 
@@ -98,8 +113,9 @@ python configs.py --onlineThreshold=500 --thumbPath=/Users/terry/work/thumbPaths
 |----- | ---- |
 | 不带参数 | 根据同目录下的**scanConfig.json**文件来扫描数据 |
 | -i(fileName) | 提供指定格式的JSON文件全路径 |
+| -p(scanFilePath) | 提供增量扫描,此操作不会添加用户,指定的路径必须是已经在之前扫描过的 |
 
-
+执行命令例子
 
 ```shell
 #根据同目录下 scanConfig.json 来扫描数据
@@ -107,14 +123,17 @@ python scanDisk.py
 
 #使用配置文件 sd.json 来扫描数据
 python scanDisk.py -i sd.json
+
+#增量扫描
+python scanDisk.py -p /User/Terry/syncFiles/t2
 ```
 
-eg:
+配置文件例子
 
 ```json
 [
     {
-        "paths":["~/work/temp/sharePath", "~/Downloads/APPicon"],
+        "paths":["~/work/temp/sharePath", "~/Downloads"],
         "users":[
             {"name": "terry", "password": "123"},
             {"name": "terry2", "password": "333"}
@@ -136,10 +155,14 @@ eg:
 ]
 ```
 
+# iSyncServer源码说明
 
-# 数据库表结构说明
+若你对源码有兴趣,或者是开发新的iSyncServer客户端.你就需要往下看看了.
+下面对 iSyncServer 的数据库和源码,提供的接口做一些介绍
 
-服务端使用python内建支持的数据库: sqlite3. 只用了4张表来对数据做记录,具体定义,可参考源代码.这里只做了简单说明
+### 数据库表结构说明
+
+服务端使用python内建支持的数据库: sqlite3. 只用了4张表来对数据做记录,具体定义,可参考源代码.
 1. User: 用户表
 2. Catalog: 目录表,记录目录的相关信息
 3. Files: 文件表,记录文件的相关信息
@@ -149,13 +172,13 @@ eg:
 只对客户端有意义,客户端可以根据需求赋不同含义.
 
 
-# API接口描述
+## API接口描述
 
 定义接口的请求与响应,若无说明,则
 1. 请求与响应都是通过**JSON**格式进行交互
 2. 接口都需要**登陆**后才能使用
 
-## 命令响应返回格式
+### 命令响应返回格式
 
 ```json
 {
@@ -165,7 +188,7 @@ eg:
 }
 ```
 
-## 类型定义
+### 类型定义
 
 <span id="datetime">**datetime**</span>:包含日期与时间的类型.
 1970到现在的秒数,如 2017-04-19 03:06:44 +0000  表示为: 1492571204
@@ -310,7 +333,8 @@ PS:
 
 ## 帐户相关接口
 
-### login.icc 登陆
+### login.icc
+登陆服务器
 
 | 请求方法 | POST |
 | -------- | --- |
@@ -322,7 +346,8 @@ PS:
 | 响应Data | **[UserInfo](#userInfo)** |
 
 
-### logout.icc 退出
+### logout.icc 
+退出服务器
 
 | 请求方法 | POST |
 | -------- | --- |
@@ -335,7 +360,8 @@ PS:
 
 ## HelpInfo 相关接口
 
-### helpInfo.icc 获取指定记录的辅助信息
+### helpInfo.icc 
+获取指定记录的辅助信息
 
 | 请求方法 | GET |
 | -------- | --- |
@@ -347,7 +373,8 @@ PS:
 | 响应Data | **[HelpInfo](#helpInfo)** |
 
 
-### updateHelpInfo.icc 设置指定记录的辅助信息
+### updateHelpInfo.icc 
+设置指定记录的辅助信息
 
 | 请求方法 | POST |
 | -------- | --- |
@@ -363,7 +390,8 @@ PS:
 
 ## 目录相关接口
 
-### catalogs.icc 获取指定目录下的信息
+### catalogs.icc 
+获取指定目录下的信息
 
 | 请求方法 | GET |
 | -------- | --- |
@@ -374,7 +402,8 @@ PS:
 | 响应Data | array of **[CatalogInfo](#catalogInfo)** |
 
 
-### createCatalog.icc 创建目录
+### createCatalog.icc 
+创建目录
 
 | 请求方法 | POST |
 | -------- | --- |
@@ -391,7 +420,8 @@ PS:
 | 响应Data | **[CatalogInfo](#catalogInfo)** |
 
 
-### deleteCatalog.icc 删除目录
+### deleteCatalog.icc 
+删除目录
 
 | 请求方法 | POST |
 | -------- | --- |
@@ -402,7 +432,8 @@ PS:
 | 响应Data | "提示信息" |
 
 
-### updateCatalog.icc 更新目录信息
+### updateCatalog.icc 
+更新目录信息
 
 | 请求方法 | POST |
 | -------- | --- |
@@ -420,7 +451,8 @@ PS:
 
 ## 文件相关接口
 
-### 请求指定目录下的数据: files.icc
+### files.icc
+请求指定目录下的数据
 
 此操作中会返回[fileStatus](#fileStatus)为 kFileStatusFromLocal 和 kFileStatusFromUploaded 的内容
 
@@ -459,7 +491,8 @@ PS:
 
 <span id="thumbnail"/>
 
-### 请求指定文件的缩略图: thumbnail.icc
+### thumbnail.icc
+请求指定文件的缩略图
 
 此接口会判断相关[fileStatus](#fileStatus)来确认是否自动生成缩略图,
 在[上传接口](#uploadFileInfo)上需要设置好 **statusForThumb**, **statusForScreen**
@@ -490,9 +523,10 @@ PS:
 | 3 | 客户端上传完成 |
 
 
-### 请求指定的文件: downFile.icc<ext>
+### downFile.icc_ext
+请求指定的文件
 
-**<ext>**: 表示扩展名,这是为了iOS在线播放而做的修改.它不参与计算,只是一个URL的表现形式
+**_ext**: 表示扩展名,这是为了iOS在线播放而做的修改.它不参与计算,只是一个URL的表现形式
 
 如下面两次方式都是可行的:
 
@@ -509,8 +543,7 @@ downFile.icc.mp4?id=12
 
 
 
-### 请求指定的文件地址: shareFileUrl.icc
-
+### shareFileUrl.icc
 获取指定资源的分享HTTP 地址
 
 | 请求方法 | GET |
@@ -523,17 +556,17 @@ downFile.icc.mp4?id=12
 
 ```json
 {
-    "分享标志shareKey,用于 shareFile.icc ";
+    "分享标志shareKey,用于 shareFile.icc "
 }
 ```
 
 
-### 获取用户分享的文件: shareFile.icc< ext >
-
+### shareFile.icc_ext
+获取用户分享的文件
 此接口**不需要**用户已经**登录**,只要共享标志已经缓存在服务器就可以下载
 支持Http的单Range协议
 
-** < ext > **: 表示扩展名,这是为了iOS在线播放而做的修改.它不参与计算,只是一个URL的表现形式 
+**_ext**: 表示扩展名,这是为了iOS在线播放而做的修改.它不参与计算,只是一个URL的表现形式 
 调用如: 
 shareFile.icc.mp4?shareKey=xxxx
 shareFile.icc.mov?shareKey=xxx
@@ -549,7 +582,8 @@ shareFile.icc.mov?shareKey=xxx
 
 <span id="uploadFileInfo"/>
 
-### 上传文件信息: uploadFileInfo.icc
+### uploadFileInfo.icc
+上传文件信息
 
 上传文件时,先上传其信息,再上传文件内容
 服务端在需要时自动生成缩略图时的相关信息,请参考: [获取缩略图](#thumbnail)
@@ -581,7 +615,8 @@ shareFile.icc.mov?shareKey=xxx
 | 响应Data | [FileInfo](#fileInfo) |
 
 
-### 获取当前正在上传的信息: uploadingInfo.icc
+### uploadingInfo.icc
+获取当前正在上传的信息
 
 | 请求方法 | GET |
 | -------- | --- |
@@ -594,7 +629,8 @@ shareFile.icc.mov?shareKey=xxx
 
 <span id="uploadFile">
 
-### 上传文件: uploadFile.icc
+### uploadFile.icc
+上传文件
 
 若 multidata 的 filename 不在以下定义中,则直接报错
 
@@ -624,7 +660,8 @@ shareFile.icc.mov?shareKey=xxx
 }
 
 
-### 删除指定文件: deleteFiles.icc
+### deleteFiles.icc
+删除指定文件
 
 | 请求方法 | POST |
 | -------- | --- |
@@ -635,7 +672,8 @@ shareFile.icc.mov?shareKey=xxx
 | 响应Data | 无 |
 
 
-### 更新文件信息: updateFile.icc
+### updateFile.icc
+更新文件信息
 
 | 请求方法 | POST |
 | -------- | --- |
