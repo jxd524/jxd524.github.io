@@ -44,8 +44,13 @@ tags: iPrivate 文件管理 同步 云盘 iSyncServer
 在调用脚本前,你最好更换下树莓派的数据源,做一些基本配置.可以参考下[树莓派配置](http://icc.one/2017/06/28/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/#提高apt-get访问速度)
 
 ```shell
-curl "http://icc.one/files/raspberrypi/setupiSyncServer.sh" | bash
+curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > setup_iSyncServer.sh && bash ~/setup_iSyncServer.sh ; rm ~/setup_iSyncServer.sh
 ```
+
+<!--当你要关闭服务时-->
+<!--```shell-->
+<!--ps | grep python | awk '{print $1}'| xargs kill -s 9-->
+<!--```-->
 
 ### 在其它操作系统上安装服务器
 
