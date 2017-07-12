@@ -28,8 +28,8 @@ description_footer: 总有些东西想记下来
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: jxd524
-disqus_shortname:
+#duoshuo_shortname: jxd524
+#disqus_shortname:
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
@@ -56,5 +56,7 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 # paginate
+# 3.5 版本之后改名
+#plugins: [jekyll-paginate]
 gems: [jekyll-paginate]
 paginate: 6

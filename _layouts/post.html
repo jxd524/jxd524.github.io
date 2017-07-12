@@ -42,7 +42,7 @@ layout: default
                 {% for thisTag in page.tags %}
                     {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
                         {% if hasSimilar.size == 0 %}
-                        <h2 id="similar_posts">Similar Posts</h2>
+                        <h2 id="similar_posts">相关内容</h2>
                         <ul>
                         {% endif %}
                         <li class="relatedPost">
@@ -64,8 +64,10 @@ layout: default
 
         {% include previousAndNext.html %}
 
-        <h2 id="comments">Comments</h2>
+        {% if site.duoshuo_shortname or site.disqus_shortname %}
+        <h2 id="comments">岁月痕迹</h2>
         {% include comments.html %}
+        {% endif %}
 
 
     </div>
@@ -80,9 +82,11 @@ layout: default
                 </div>
                 <ul id="content-side" class="content-ul">
                     {% if hasSimilar.size > 0 %}
-                    <li><a href="#similar_posts">Similar Posts</a></li>
+                    <li><a href="#similar_posts">相关内容</a></li>
                     {% endif %}
-                    <li><a href="#comments">Comments</a></li>
+                    {% if site.duoshuo_shortname or site.disqus_shortname %}
+                    <li><a href="#comments">岁月痕迹</a></li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->
