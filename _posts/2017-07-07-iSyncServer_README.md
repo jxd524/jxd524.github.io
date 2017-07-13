@@ -41,10 +41,10 @@ Recommended download[RASPBIAN LITE](https://www.raspberrypi.org/downloads/raspbi
 
 
 Use the following shell script to install automatically( the Script only test on Raspberry pi lite)
-The script will automatically update the operating system and install the software: `git, ffmpeg, pyenv, python 3.5.2, pyenv-virtual of iSyncServerEnv3.5.2, Pillow, Flask`
+The script will automatically update the operating system and install the software: `git, ffmpeg, pyenv, python 3.5.2, pyenv-virtual of iSyncServerEnv3.5.2, Pillow, Flask`. And will add **auto run** when boot
 
 ```shell
-curl "http://icc.one/files/raspberrypi/setupiSyncServer.sh" | bash
+curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > ~/setup_iSyncServer.sh && bash ~/setup_iSyncServer.sh ; rm ~/setup_iSyncServer.sh
 ```
 
 ### Install the server on other operating systems
@@ -697,3 +697,4 @@ upload file content
 | helpText | string | opt |
 |||
 | Reponse Data | [FileInfo](#fileInfo) |
+The script will automatically update the operating system and install the software: `git, ffmpeg, pyenv, python 3.5.2, pyenv-virtual of iSyncServerEnv3.5.2, Pillow, Flask`
