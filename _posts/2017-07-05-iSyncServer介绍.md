@@ -38,14 +38,46 @@ tags: iPrivate 文件管理 同步 云盘 iSyncServer
 
 
 使用以下脚本自动安装**iSyncServer**
-脚本会自动更新操作系统,并安装软件: `git, ffmpeg, pyenv, python 3.5.2, 虚拟环境iSyncServerEnv3.5.2, Pillow, Flask`. 并添加开机启动功能
+脚本会自动更新操作系统,并安装软件: `git, ffmpeg, pyenv, python 3.5.2, 虚拟环境iSyncServerEnv3.5.2, Pillow, Flask`. 并添加开机启动功能.在安装完成之后,会让你输入一些配置
 
 此脚本只在raspbian lite 版本上测试通过
-在调用脚本前,你最好更换下树莓派的数据源,做一些基本配置.可以参考下[树莓派配置](http://icc.one/2017/06/28/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/#提高apt-get访问速度)
+**国内**的朋友在调用脚本前,最好更换下树莓派的数据源,做一些基本配置.可以参考下[树莓派配置](http://icc.one/2017/06/28/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/#提高apt-get访问速度)
+
+若脚本在执行过程中下载文件超时,你可以重新执行一次,或者是进行服务器的 `~/iSyncServer` 中执行 `./run.sh` 脚本
 
 ```shell
 curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > ~/setup_iSyncServer.sh && bash ~/setup_iSyncServer.sh ; rm ~/setup_iSyncServer.sh
 ```
+
+<br>
+
+>
+PS:
+国内的亲们,在树莓派新操作系统下安装**iSyncServer**推荐用以下命令
+(更新系统内核并安装相应依赖,100M带宽估计也得1个小时才能完成)
+
+* 1: 提高apt-get访问速度
+
+```shell
+curl "http://icc.one/files/raspberrypi/addAptSrc.sh" | sudo bash
+```
+
+* 2: 自动挂接USB并重启系统,重启后,只要你插入USB,你就能在 **/media/** 下找到你的USB,并能够读写数据了
+
+```shell
+curl "http://icc.one/files/raspberrypi/setAutoUSB.sh" | sudo tee /etc/udev/rules.d/50-myUsb.rules && sudo reboot
+```
+
+* 3: 插入你的USB移动硬盘
+* 4: 开始安装iSyncServer
+
+```shell
+curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > ~/setup_iSyncServer.sh && bash ~/setup_iSyncServer.sh ; rm ~/setup_iSyncServer.sh
+```
+
+* 5: 在你的iPhone上安装 [iPrivate](https://itunes.apple.com/us/app/iprivate-protect-your-privacy-photo-video/id992360900?l=zh&ls=1&mt=8),并使用它来连接你的派,输入你在服务端的IP地址和商品,用户名与密码就完成了
+
+
 
 ### 在其它操作系统上安装服务器
 
@@ -55,14 +87,24 @@ curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > ~/se
 4. 创建python3.5.2虚拟环境 iSyncServerEnv3.5.2
 5. 在 iSyncServerEnv3.5.2 下安装 [Pillow](https://pillow.readthedocs.io/en/latest/installation.html), [Flask](http://flask.pocoo.org/docs/0.12/installation/)
 6. 使用GIT或直接下载iSyncServer 的源码到本地 **~/iSyncServer** 下.
-7. 配置 **scanConfig.json**,文件不存在则创建,启动python虚拟环境后运行scanDisk.py
-8. 配置 **appConfigs.json**, 在python虚拟环境下运行app.py
+7. 配置 **scanDiskConfig.json**,文件不存在则创建,有以下三种方式也完成配置
+    * 执行 **buildingScan.sh** 脚本来输入信息以生成JSON文件, 位于 **~/iSyncServer** 目录下
+    * 启动python虚拟环境后运行scanDisk.py. 具体参数请[查阅](#scanDisk)
+    * 根据[这里的说明](#scanDisk), 自行编辑JSON文件
+8. 配置 **appConfigs.json**, 可以有以下两种方式
+    * 执行 **buildingConfig.sh** 脚本来输入信息以生成JSON文件, 位于 **~/iSyncServer** 目录下
+    * 根据[这里的说明](#appConfigs), 自行编辑JSON文件
+9. 在虚拟环境**iSyncServerEnv3.5.2** 下运行 `python scanDisk.py` 以扫描数据(这一步可选,若已经扫描过了.可以跳过)
+10. 在虚拟环境**iSyncServerEnv3.5.2** 下运行 `python app.py`. 启动服务
+11. 在你的iPhone上下载安装[iPrivate](https://itunes.apple.com/us/app/iprivate-protect-your-privacy-photo-video/id992360900?l=zh&ls=1&mt=8),输入服务器地址与端口,用户名与密码.
+12. 没有了.此时你已经可以在你的iPhone上对你远端文件进行操作了
 
 ### 在iOS上安装客户端
 
 使用[iPrivate](https://itunes.apple.com/us/app/iprivate-protect-your-privacy-photo-video/id992360900?l=zh&ls=1&mt=8)
 输入服务器地址, 如 http://192.168.1.188:5000, 一般是你的服务器IP地址后加 **:5000**
 
+<span id="appConfigs"/>
 
 # App配置文件
 

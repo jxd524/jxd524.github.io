@@ -43,6 +43,8 @@ Recommended download[RASPBIAN LITE](https://www.raspberrypi.org/downloads/raspbi
 Use the following shell script to install automatically( the Script only test on Raspberry pi lite)
 The script will automatically update the operating system and install the software: `git, ffmpeg, pyenv, python 3.5.2, pyenv-virtual of iSyncServerEnv3.5.2, Pillow, Flask`. And will add **auto run** when boot
 
+When the shell is timeout, you can try it again or enter `~/iSyncServer` and run `./run.sh`
+
 ```shell
 curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > ~/setup_iSyncServer.sh && bash ~/setup_iSyncServer.sh ; rm ~/setup_iSyncServer.sh
 ```
@@ -55,15 +57,18 @@ curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > ~/se
 4. Used pyenv create python 3.5.2 virtual: **iSyncServerEnv3.5.2**
 5. Install [Pillow](https://pillow.readthedocs.io/en/latest/installation.html), [Flask](http://flask.pocoo.org/docs/0.12/installation/) in the virtual environment **iSyncServerEnv3.5.2**
 6. Copy the **iSyncServer Source code** to local:**~/iSyncServer** .
-7. Config **scanConfig.json**. 
-8. Config **appConfigs.json**. you can create it with a similar code: `python configs.py --thumbPath=xxx`
-9. Run **app.py** in the virtual environment **iSyncServerEnv3.5.2**
+7. Config **scanDiskConfig.json**. [Refer to](#scanDisk)
+8. Config **appConfigs.json**. [Refer to](#appConfigs)
+9. Option. Run **scanDisk.py** in the virtual environment **iSyncServerEnv3.5.2**. `python scanDisk.py`
+10. Run **app.py** in the virtual environment **iSyncServerEnv3.5.2**. `python app.py`
 
 ### Install the client on iOS
 
 Install [iPrivate](https://itunes.apple.com/us/app/iprivate-protect-your-privacy-photo-video/id992360900?l=zh&ls=1&mt=8)
 Open the app and go to remote ui then input server addr. like **http://192.168.1.188:5000**
 
+
+<span id="appConfigs"/>
 
 # App Configuration File
 
