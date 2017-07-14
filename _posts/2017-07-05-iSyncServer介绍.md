@@ -56,26 +56,20 @@ PS:
 国内的亲们,在树莓派新操作系统下安装**iSyncServer**推荐用以下命令
 (更新系统内核并安装相应依赖,100M带宽估计也得1个小时才能完成)
 
-* 1: 提高apt-get访问速度
+* 1: 提高apt-get访问速度, 自动挂接USB并重启系统,重启后,只要你插入USB,你就能在 **/media/** 下找到你的USB,并能够读写数据了
 
 ```shell
-curl "http://icc.one/files/raspberrypi/addAptSrc.sh" | sudo bash
+curl "http://icc.one/files/raspberrypi/addAptSrc.sh" | sudo bash && curl "http://icc.one/files/raspberrypi/setAutoUSB.sh" | sudo tee /etc/udev/rules.d/50-myUsb.rules && sudo reboot
 ```
 
-* 2: 自动挂接USB并重启系统,重启后,只要你插入USB,你就能在 **/media/** 下找到你的USB,并能够读写数据了
-
-```shell
-curl "http://icc.one/files/raspberrypi/setAutoUSB.sh" | sudo tee /etc/udev/rules.d/50-myUsb.rules && sudo reboot
-```
-
-* 3: 插入你的USB移动硬盘
-* 4: 开始安装iSyncServer
+* 2: 插入你的USB移动硬盘
+* 3: 开始安装iSyncServer
 
 ```shell
 curl "https://raw.githubusercontent.com/jxd524/iSyncServer/master/run.sh" > ~/setup_iSyncServer.sh && bash ~/setup_iSyncServer.sh ; rm ~/setup_iSyncServer.sh
 ```
 
-* 5: 在你的iPhone上安装 [iPrivate](https://itunes.apple.com/us/app/iprivate-protect-your-privacy-photo-video/id992360900?l=zh&ls=1&mt=8),并使用它来连接你的派,输入你在服务端的IP地址和商品,用户名与密码就完成了
+* 4: 在你的iPhone上安装 [iPrivate](https://itunes.apple.com/us/app/iprivate-protect-your-privacy-photo-video/id992360900?l=zh&ls=1&mt=8),并使用它来连接你的派,输入你在服务端的IP地址和商品,用户名与密码就完成了
 
 
 
