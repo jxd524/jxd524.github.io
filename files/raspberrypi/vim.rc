@@ -333,6 +333,13 @@
 "************************************************************
     autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
 
+"************************************************************
+"
+"   键盘映射
+"
+"************************************************************
+
+    source ~/.vim/vimrc.keybindings
 
 "************************************************************
 "
@@ -355,114 +362,3 @@
 "
 "************************************************************
     autocmd filetype crontab setlocal nobackup nowritebackup
-
-
-
-
-""尽量与XCode的快捷相同
-"修改系统快捷键
-    "inoremap <expr> <ESC>      pumvisible() ? "\<ESC>a" : "\<ESC>"
-    "inoremap <expr> <CR>       pumvisible() ? "\<ESC>a" : "\<CR>"
-    "inoremap <expr> <Space>    pumvisible() ? " \<ESC>a": "\<Space>"
-    "inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
-    "inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
-    "inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>"
-    "inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
-    ""inoremap <expr> <Tab>      pumvisible() ? "\<C-n>" : "<Tab>"
-    
-    nnoremap <Tab> i<Tab>
-
-"树
-
-"绑定具体插件的命令<D-Space>
-    "nmap <F2> <ESC>:NERDTreeFocus<CR>
-    "imap <F2> <ESC>:NERDTreeFocus<CR>
-    "nmap <F3> <ESC>:TlistOpen<CR>
-    "imap <F3> <ESC>:TlistOpen<CR>
-
-"光栅移动 向前一个单词
-    inoremap <C-j> <ESC><ESC>bi
-    noremap <C-j> bi
-
-"光栅移动 向后一个单词
-    inoremap <C-l> <C-o>e<C-o>a
-    nnoremap <C-l> ea
-
-"光栅移动 向下一行
-    inoremap <C-n> <Down>
-    inoremap <S-CR> <C-o>o
-    nmap <S-CR> i<S-CR>
-
-"行首与行尾
-    inoremap <C-a> <C-o><S-^>
-    inoremap <C-e> <C-o><S-$>
-
-"光栅移动  向上一行
-    inoremap <C-p> <Up>
-    nnoremap <C-p> <Up>
-
-"删除
-    inoremap <C-k> <C-o>d$
-    inoremap <S-BS> <ESC>d^xa
-    inoremap <C-d> <Right><BS>
-    inoremap <C-h> <BS>
-"选择
-    "inoremap <expr> <S-Up> pumvisible() ? "\<S-Up>" : "\<C-o>v<Up>"
-    "inoremap <expr> <S-Down> pumvisible() ? "\<S-Down>" : "\<C-o>v<Down>"
-    "inoremap <expr> <S-Left> pumvisible() ? "\<S-Left>" : "\<C-o>v<Left>"
-    "inoremap <expr> <S-Right> pumvisible() ? "\<S-Right>" : "\<C-o>v<Right>"
-
-"自动补全
-    inoremap ( ()<ESC>i
-    inoremap <expr> ) NextCharOrHandle(")", ")")
-
-    inoremap { {}<ESC>i
-    inoremap <expr> } NextCharOrHandle("}", "}")
-
-    inoremap [ []<ESC>i
-    inoremap <expr> ] NextCharOrHandle("]", "]")
-
-    inoremap < <><ESC>i
-    inoremap <expr> > NextCharOrHandle(">", ">")
-
-    inoremap <expr> " NextCharOrHandle("\"", "\"\"\<ESC>i")
-    inoremap <expr> ' NextCharOrHandle("'", "''\<ESC>i")
-
-    "若光标下个字符与指定相同,则向右移动一个字符,否则执行指定代码
-    function! NextCharOrHandle(char, aNotCharHandle)
-        if getline('.')[col('.') - 1] == a:char
-            return "\<Right>"
-        else
-            return a:aNotCharHandle
-        endif
-    endfunction
-
-"编译运行程序,根据文件类型处理
-    imap <D-r> <ESC><D-r>
-    noremap <D-r> :call CompileAndRun()<CR>
-    func! CompileAndRun()
-        exec "w"
-        if &filetype == 'python'
-            exec "!time python %"
-        elseif &filetype == 'c'
-            exec "!g++ % -o %<"
-            exec "!time ./%<"
-        elseif &filetype == 'cpp'
-            exec "!g++ % -o %<"
-            exec "!time ./%<"
-        elseif &filetype == 'java' 
-            exec "!javac %" 
-            exec "!time java %<"
-        elseif &filetype == 'sh'
-            :!time bash %
-        elseif &filetype == 'html'
-            exec "!chrome % &"
-        elseif &filetype == 'go"'
-            exec "!go build %<"
-            exec "!time go run %"
-        elseif &filetype == 'markdown'
-            exec "MarkdownPreview"
-        endif
-    endfunc
-
-
