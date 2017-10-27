@@ -1,6 +1,6 @@
 {
     "webName":"零点看书",
-    "version":1,
+    "version":3,
     "homeURL":"http://www.00ksw.org/",
     
     "searchBook":
@@ -168,7 +168,7 @@
         "process":
         [
          {"url":   [{"range":"url"}]},
-         {"title": [{"range":"title"}, {"rangeReplace":"title2"}, {"rangeReplace":"title3"}, {"format":"%@_NEW"}]}
+         {"title": [{"range":"title"}, {"rangeReplace":"title2"}, {"rangeReplace":"title3"}, {"format":"KK_%@_NEW"}]}
          ],
         
         "functions":
