@@ -1,9 +1,0 @@
-{
-    "webs":[
-        {"version": 1, "webName": "笔趣阁", "homeURL": "/iFreeTime/config/biquge.json"},
-        {"version": 1, "webName": "零点看书", "homeURL": "/iFreeTime/config/lingdiankanshu.json"}
-    ],
-    "hotkeys":[
-        {"version": 1, "webName": "百度热词", "homeURL": "/iFreeTime/config/baiduHotkey.json"},
-    ]
-}
