@@ -1,11 +1,3 @@
 { 
-    "BookSourceManager":[
-        {"version": 1, "webName": "笔趣阁", "homeURL": "bq.zip"},
-        {"version": 2, "webName": "起点", "homeURL": "didian.zip"},
-        {"version": 2, "webName": "零点看书", "homeURL": "ooksw.json"},
-        {"version": 1, "webName": "测试新来源", "homeURL": "aiquxs.json"}
-    ],
-    "HotKeywordManager":[
-        {"version": 1, "webName": "百度热词", "homeURL": "/iFreeTime/configV2/bhKey.json"},
-    ]
+"BookSourceManager":[]
 }
