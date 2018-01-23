@@ -43,6 +43,7 @@ tags: iFreeTime 爱阅书香 小说 阅读器
 
 ## 界面截图
 
+![](/files/ift_g.gif)
 ![](/files/ift_1.PNG)
 ![](/files/ift_2.PNG)
 ![](/files/ift_3.PNG)
