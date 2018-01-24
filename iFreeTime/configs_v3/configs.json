@@ -1,1 +1,5 @@
-{}
+{
+    "AdsManager":[
+    {"version": 1, "webName": "softBugNotify", "homeURL": "softBugNotify.json"}
+    ]
+}
