@@ -1,6 +1,6 @@
 {
     "AdsManager":[
     {"version": 1, "webName": "softBugNotify", "homeURL": "softBugNotify.json"},
-    {"version": 2, "webName": "luomiFullScreen", "homeURL": "luomiFullScreen.json"}
+    {"version": 3, "webName": "luomiFullScreen", "homeURL": "luomiFullScreen.json"}
     ]
 }
