@@ -1,0 +1,12 @@
+{
+    "webName":"luomiBigImg_ReadBookVC",
+    "version":1,
+    "handleClass": "LuomiAdManager",
+    "homeURL":"http://www.luomi.com/",
+    "adType":22,
+    "enable":true,
+    "maxCacheSecond": 1500,
+    "curShowCount":0,
+    "maxShowCount":0,
+    "showPosition":"ReadBookVC"
+}
