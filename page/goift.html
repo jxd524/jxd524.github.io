@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="UTF-8"><title>跳转到爱阅书香</title>
+        <script>
+            var strUrl = document.URL;
+            var nPos = strUrl.indexOf("?");
+            var strParam = strUrl.substring(nPos + 1);
+            var ift = "iFreeTime://" + strParam;
+            function goIftApp()
+            {
+                location.href = ift;
+            }
+        </script>
+    </head>
+    <body onload="goIftApp()"></body>
+    <p>若还没有安装爱阅书香，可<a href="https://itunes.apple.com/cn/app/ai-yue-shu-xiang-quan-ben/id1137819437?mt=8">点击这里</a>到AppStore上安装</p>
+</html>
