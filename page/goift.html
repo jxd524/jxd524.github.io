@@ -8,10 +8,26 @@
             var ift = "iFreeTime://" + strParam;
             function goIftApp()
             {
+                document.getElementById("copy-num").value = strUrl;
                 location.href = ift;
+            }
+        
+            function jsCopy()
+            {
+                var e=document.getElementById("copy-num");
+                e.select();
+                document.execCommand("Copy");
+                alert("复制成功");
             }
         </script>
     </head>
     <body onload="goIftApp()"></body>
+    <p>爱阅书香，可自定义来源的阅读器</p>
     <p>若还没有安装爱阅书香，可<a href="https://itunes.apple.com/cn/app/ai-yue-shu-xiang-quan-ben/id1137819437?mt=8">点击这里</a>到AppStore上安装</p>
+    <p>若已经安装爱阅书香，但没有跳转，则请在Safari中打开此链接</P><p></p>
+    <div>
+        <p>链接地址：</P>
+        <input id="copy-num" type="text" value="" style="width:90%" /><br>
+        <button onClick="jsCopy()" type="button" class="btn btn-sm">复制</button>
+    </div>
 </html>
