@@ -4,7 +4,7 @@
     "handleClass": "AdBasicItem",
     "homeURL":"http://icc.one/",
     "adType":30,
-    "enable":false,
+    "enable":true,
     "maxShowCount": 1,
     "showPosition":"HomeVC",
     "adTitle":"收到了",
