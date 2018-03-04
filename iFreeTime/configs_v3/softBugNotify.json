@@ -1,12 +1,14 @@
 {
     "webName":"softBugNotify",
-    "version":1,
+    "version":2,
     "handleClass": "AdBasicItem",
-    "homeURL":"http://icc.one/",
+    "homeURL":"http://icc.one",
+    "adClickUrl": "https://itunes.apple.com/cn/app/ai-yue-shu-xiang-quan-ben/id1137819437?mt=8",
     "adType":30,
     "enable":true,
-    "maxShowCount": 1,
-    "showPosition":"HomeVC",
-    "adTitle":"收到了",
-    "adMessage":"爱阅书香：\n\n经常弹出云端界面是APP没处理好的BUG，已经修复，但得在下一版本才能得到解决。\n\n不喜老是弹出分享界面的同学，可以先选择分享一次，把它发到无人知晓的群或发给自己。在下一版本将会取消这个弹出。\n\n繁体搜索时若闪退，请使用简体搜索（已修复，下版本更新）。\n\n愿所有的不合理都能解决，有任何建议都可以向我来信说明，我会尽最大的努力解决。\n\n谢谢理解，祝阅书愉快。"
+    "maxShowCount": 5,
+    "curShowCount": 0,
+    "showMaxVersion": "5.3.0",
+    "adTitle":"去更新",
+    "adMessage":"亲爱的同学们:\n\n爱阅书香在此版本的某个网络处理过程中，存在有重大BUG, 可能会引起不断重复的下载图片。\n\n请升级到5.3.1版本以修复此问题，感谢您的支持。"
 }
