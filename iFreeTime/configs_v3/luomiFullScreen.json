@@ -1,10 +1,11 @@
 {
     "webName":"luomiFullScreen",
-    "version":3,
+    "version":5,
+    "weight":1,
     "handleClass": "LuomiAdManager",
     "homeURL":"http://www.luomi.com/",
     "adType":10,
-    "enable":true,
-    "maxCacheSecond": 1400,
-    "itemSpaceSecond": 86400
+    "enable":false,
+    "maxCacheSecond": 1500,
+    "adShowSpaceType": 1
 }

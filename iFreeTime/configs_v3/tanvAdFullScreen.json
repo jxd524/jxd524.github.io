@@ -1,0 +1,13 @@
+{
+    "webName":"tanvAdFullScreen",
+    "version":3,
+    "weight":1,
+    "handleClass": "TanvAdManager",
+    "homeURL":"http://www.tanv.com/",
+    "adType":10,
+    "enable":true,
+    "showSpaceSecond": 300,
+    "maxCacheSecond": 60,
+    "showPosition": "FlashVC",
+    "dataUrl":"https://appapisdk.tanv.com/1_0_0/FullScreen.php"
+}
