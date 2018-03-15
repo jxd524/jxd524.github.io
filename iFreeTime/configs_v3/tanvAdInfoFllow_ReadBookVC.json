@@ -1,0 +1,14 @@
+{
+    "webName":"tanvAdInfoFllow_ReadBookVC",
+    "version":2,
+    "handleClass": "TanvAdManager",
+    "homeURL":"http://www.tanv.com/",
+    "adType":22,
+    "enable":true,
+    "weight":10,
+    "showSpaceSecond": 30,
+    "maxCacheSecond": 60,
+    "showPosition": "ReadBookVC",
+    "ShowType": 4,
+    "dataUrl":"https://appapisdk.tanv.com/1_0_0/InfoFlow.php"
+}

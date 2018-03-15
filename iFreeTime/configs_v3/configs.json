@@ -1,7 +1,8 @@
 {
     "AdsManager":
     [
-     {"version": 2, "webName": "softBugNotify", "homeURL": "softBugNotify.json"}
+     {"version": 3, "webName": "luomiBigImg_ReadBookVC", "homeURL": "luomiBigImg_ReadBookVC.json"},
+     {"version": 2, "webName": "tanvAdInfoFllow_ReadBookVC", "homeURL": "tanvAdInfoFllow_ReadBookVC.json"}
      ]
 }
 
