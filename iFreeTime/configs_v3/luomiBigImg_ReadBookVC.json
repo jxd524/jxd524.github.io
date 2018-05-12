@@ -1,6 +1,6 @@
 {
     "webName":"luomiBigImg_ReadBookVC",
-    "version":5,
+    "version":6,
     "weight":1,
     "handleClass": "LuomiAdManager",
     "homeURL":"http://www.luomi.com/",

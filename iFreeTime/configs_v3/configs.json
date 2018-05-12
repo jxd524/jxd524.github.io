@@ -1,3 +1,7 @@
 {
+    "AdsManager":
+    [
+     {"version": 6, "webName": "luomiBigImg_ReadBookVC", "homeURL": "luomiBigImg_ReadBookVC.json"},
+     {"version": 6, "webName": "luomiFullScreen", "homeURL": "luomiFullScreen.json"}
+     ]
 }
-
