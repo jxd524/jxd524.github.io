@@ -1,11 +1,11 @@
 {
     "webName":"tanvAdFullScreen",
-    "version":3,
+    "version":4,
     "weight":1,
     "handleClass": "TanvAdManager",
     "homeURL":"http://www.tanv.com/",
     "adType":10,
-    "enable":true,
+    "enable":false,
     "showSpaceSecond": 300,
     "maxCacheSecond": 60,
     "showPosition": "FlashVC",

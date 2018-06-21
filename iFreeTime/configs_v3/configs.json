@@ -2,6 +2,8 @@
     "AdsManager":
     [
      {"version": 6, "webName": "luomiBigImg_ReadBookVC", "homeURL": "luomiBigImg_ReadBookVC.json"},
-     {"version": 6, "webName": "luomiFullScreen", "homeURL": "luomiFullScreen.json"}
+     {"version": 7, "webName": "luomiFullScreen", "homeURL": "luomiFullScreen.json"},
+     {"version": 4, "webName": "tanvAdFullScreen", "homeURL": "tanvAdFullScreen.json"},
+     {"version": 4, "webName": "tanvAdInfoFllow_ReadBookVC", "homeURL": "tanvAdInfoFllow_ReadBookVC.json"}
      ]
 }

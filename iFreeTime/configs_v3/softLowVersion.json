@@ -1,0 +1,14 @@
+{
+    "webName":"softLowVersion",
+    "version":4,
+    "handleClass": "AdBasicItem",
+    "homeURL":"http://icc.one",
+    "adClickUrl": "https://itunes.apple.com/cn/app/ai-yue-shu-xiang-quan-ben/id1137819437?mt=8",
+    "adType":30,
+    "enable":true,
+    "maxShowCount": 30,
+    "curShowCount": 1,
+    "showMaxVersion": "",
+    "adTitle":"去更新",
+    "adMessage":"亲爱的同学:\n\n您的版本过低，爱阅书香将在近期停止低于5.6.0版本的支持了。\n\n请尽快到AppStore上升级到最新版本，感谢您的支持。"
+}
