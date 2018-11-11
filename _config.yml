@@ -59,4 +59,5 @@ excerpt_separator: "\n\n\n\n"
 # 3.5 版本之后改名
 #plugins: [jekyll-paginate]
 gems: [jekyll-paginate]
-paginate: 6
+plugins: [jekyll-paginate]
+paginate: 8

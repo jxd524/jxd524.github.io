@@ -9,6 +9,9 @@ layout: default
         <hr>
         <ul>
             {% for post in paginator.posts %}
+              {% if post.hide == true %}
+                {% continue %}
+              {% endif %}
               <li>
                 <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -75,6 +78,9 @@ layout: default
                 </div>
                 <ul class="content-ul" recent>
                     {% for post in site.posts offset: 0 limit: 10  %}
+                        {% if post.hide == true %}
+                          {% continue %}
+                        {% endif %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
@@ -88,7 +94,7 @@ layout: default
                 </div>
                 <ul class="content-ul" cate>
                     {% for category in site.categories %}
-                    <li>
+                     <li>
                         <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
                             <span class="name">
                                 {{ category | first }}
@@ -123,7 +129,7 @@ layout: default
                         {% assign diff = max | minus: min %}
                     {% endif %}
 
-                    {% for tag in site.tags %}
+                    {% for tag in site.tags}
                       {% assign temp = tag[1].size | minus: min | times: 36 | divided_by: diff %}
                       {% assign base = temp | divided_by: 4 %}
                       {% assign remain = temp | modulo: 4 %}

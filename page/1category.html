@@ -16,7 +16,7 @@ type: page
             <h2 id="{{category | first}}">{{category | first}}</h2>
                 {% for posts in category  %}
                     {% for post in posts %}
-                        {% if post.url %}
+                        {% if post.hide != true and post.url %}
                         <li>
                             <time>
                             {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
