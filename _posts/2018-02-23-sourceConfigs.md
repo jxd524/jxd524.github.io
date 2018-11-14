@@ -3,7 +3,7 @@ layout: post
 title:  "爱阅书香之自定义来源"
 author: Terry
 date:   2018-02-23 12:06:00 +0800
-categories: soft
+categories: 爱阅书香
 tags: iFreeTime 爱阅书香 小说 阅读器 爱阅码 自定义来源
 ---
  

@@ -3,7 +3,7 @@ layout: post
 title:  "隐私政策"
 author: Terry
 date:   2018-10-25 11:00:00 +0800
-categories: 协议
+categories: 爱阅书香
 hide: true
 tags: 模拟器
 ---

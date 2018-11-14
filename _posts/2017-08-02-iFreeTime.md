@@ -3,7 +3,7 @@ layout: post
 title:  "爱阅书香阅读器介绍"
 author: Terry
 date:   2017-08-02 10:00
-categories: soft
+categories: 爱阅书香
 tags: iFreeTime 爱阅书香 小说 阅读器
 ---
 
