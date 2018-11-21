@@ -9,7 +9,7 @@ layout: default
         <hr>
         <ul>
             {% for post in paginator.posts %}
-              {% if post.hide == true %}
+              {% if post.hide == true or post.home == false%}
                 {% continue %}
               {% endif %}
               <li>
