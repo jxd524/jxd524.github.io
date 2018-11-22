@@ -1,9 +1,10 @@
 {
+    "BookSourceManager":
+    [
+     {"version": 10, "webName": "自动搜索", "homeURL": "disaZs.json"},
+     ],
     "AdsManager":
     [
-     {"version": 6, "webName": "luomiBigImg_ReadBookVC", "homeURL": "luomiBigImg_ReadBookVC.json"},
-     {"version": 7, "webName": "luomiFullScreen", "homeURL": "luomiFullScreen.json"},
-     {"version": 4, "webName": "tanvAdFullScreen", "homeURL": "tanvAdFullScreen.json"},
-     {"version": 4, "webName": "tanvAdInfoFllow_ReadBookVC", "homeURL": "tanvAdInfoFllow_ReadBookVC.json"}
-     ]
+        {"version": 10, "webName": "softLowVersion", "homeURL": "softLowVersion.json"}
+    ]
 }

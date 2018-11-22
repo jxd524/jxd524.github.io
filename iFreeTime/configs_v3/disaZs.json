@@ -1,0 +1,9 @@
+{
+    "webName": "自动搜索",
+    "version": 10,
+    "handleClass": "ZsSource",
+    "searchBookWeight": -1,
+    "updateBookWeight": -1,
+    "updateWebSourceWeight": -1,
+    "updateChapterWeight": -1
+}
