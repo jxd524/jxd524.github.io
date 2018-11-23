@@ -20,7 +20,7 @@ tags: 书源配置 爱阅书香 自定义来源
 
 # 任何你想反馈的
 <br>
-**微信扫码与我联系** ![微信](/files/wx-ift.png)
+**微信扫码与我联系(可拉你进微信群)** ![微信](/files/wx-ift.png)
 <br>
 <strong>QQ反馈：<a href="mqq://im/chat?chat_type=wpa&uin=1687773132&version=1&src_type=web">1687773132（点击）</a></strong> 
 <br>
