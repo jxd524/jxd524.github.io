@@ -24,22 +24,7 @@ tags: 书源配置 爱阅书香 自定义来源
 1. 这是由**热心观众**提供的，包含多个书源：追书，起点，快眼看书，88读书等的配置。[多个书源合集点击可导入](ifreetime://configs/https://gitee.com/ift123/test/raw/master/bscdef.json)
 
 2. 这是由群里的小伙伴提供的**➹**提供的书源。包含多个书源：55小说网, UC书盟, 丹书铁卷, 思路客等几十个书源 
-<!--[点击这里可以导入](ifreetime://configs/https://github.com/jxd524/bookConfigs/blob/master/README.md)-->
-
-书源导入地址 | 备注
----- | ---- 
-[55小说网](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/55%E5%B0%8F%E8%AF%B4%E7%BD%91-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) | 喜欢就试试，不喜可禁用
-[UC书盟](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/UC%E4%B9%A6%E7%9B%9F-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) | 
-[丹书铁卷](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E4%B8%B9%E4%B9%A6%E9%93%81%E5%8D%B7-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[云来阁小说](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E4%BA%91%E6%9D%A5%E9%98%81%E5%B0%8F%E8%AF%B4-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[墨壇文學](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E5%A2%A8%E5%A3%87%E6%96%87%E5%AD%B8-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[小说520](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E5%B0%8F%E8%AF%B4520-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[幻月书院](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E5%B9%BB%E6%9C%88%E4%B9%A6%E9%99%A2-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[思路客](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E6%80%9D%E8%B7%AF%E5%AE%A2-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[暖才文学网](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E6%9A%96%E6%89%8D%E6%96%87%E5%AD%A6%E7%BD%91-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[梧州中文网](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E6%A2%A7%E5%B7%9E%E4%B8%AD%E6%96%87%E7%BD%91-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[笔趣阁](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E7%AC%94%E8%B6%A3%E9%98%81-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
-[雅文小说](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E9%9B%85%E6%96%87%E5%B0%8F%E8%AF%B4-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt) |
+[点击这里可以进入](https://jxd524.github.io/bookConfigs/)
 
 ## 更多的导入方式
 1. 你可以复制书源对应的内容，或者是地址，然后到爱阅书香的**书源配置界面**，点击菜单，选择**导入剪切板的信息**功能进行导入。
