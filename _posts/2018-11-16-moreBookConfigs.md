@@ -16,9 +16,10 @@ tags: 书源配置 爱阅书香 自定义来源
 书源并非越多越好，导入越多的书源，在搜索来源时，将花更多的时间，更多的电量，更多的流量。请大家明确。
 
 
-# 6.2及之后的导入方式
+# 6.2版本及之后的导入方式
 
-在您的设备上，安装了爱阅书香之后，至少要打开一次。之后，您可以直接点击以下链接进行书源导入
+在您的设备上，安装了爱阅书香之后，至少要打开一次。之后，您可以直接点击以下链接进行书源导入。
+
 
 1. 这是由**热心观众**提供的，包含多个书源：追书，起点，快眼看书，88读书等的配置。[点击这里可以导入](ifreetime://configs/https://gitee.com/ift123/test/raw/master/bscdef.json)
 
@@ -40,6 +41,9 @@ UC书盟 | [点这里可导入](ifreetime://configs/https://raw.githubuserconten
 笔趣阁 |[点这里可导入](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E7%AC%94%E8%B6%A3%E9%98%81-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt)
 雅文小说 |[点这里可导入](ifreetime://configs/https://raw.githubusercontent.com/jxd524/bookConfigs/master/%E9%9B%85%E6%96%87%E5%B0%8F%E8%AF%B4-%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99.txt)
 
+## 更多的导入方式
+1. 你可以复制书源对应的内容，或者是地址，然后到爱阅书香的**书源配置界面**，点击菜单，选择**导入剪切板的信息**功能进行导入。
+2. 把书源下载到设备上（通过QQ或微信之类的工具），然后使用“拷贝到爱阅书香”的功能进行导入。
 
 
 
