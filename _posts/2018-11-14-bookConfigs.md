@@ -14,7 +14,7 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 # 在阅读本文之前
 要使用爱阅书香的网络功能，需要有相应的书源配置。我们不再提供默认的书源配置。请自行根据书源规则来配置自己的源！
 
-# 现在收集的书源配置
+# 当前收集的书源配置
 有很多热心的小伙伴，提供了各式各样的书源配置。我将其整理了下。
 
 
@@ -31,6 +31,8 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 **wxdjs** | [https://wxdjs.github.io/iFreeTimebookConfigs/](https://wxdjs.github.io/iFreeTimebookConfigs/)
 **乌冬肥大鸡** | [https://gitee.com/heiji666/aiyue](https://gitee.com/heiji666/aiyue)
 **踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books)
+
+若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
 
 ## 导入书源的方式
 
