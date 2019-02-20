@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "爱阅书香之自定义书源教程"
+title:  "爱阅书香之书源制作与导入教程"
 author: Terry
 date:   2018-11-14 17:17:00 +0800
 categories: 爱阅书香
 hide: false
-tags: 书源配置 爱阅书香 自定义来源
+tags: 书源配置 爱阅书香 自定义来源 教程
 ---
  
 * content
@@ -24,17 +24,36 @@ tags: 书源配置 爱阅书香 自定义来源
 
 
 
-**相逢应不识**同学提供的书源合集，[https://gitee.com/ift123/iFreeTimeBookConfigs
-](https://gitee.com/ift123/iFreeTimeBookConfigs)
+书源收集（按发给我的时间为顺序）
 
-**wxdjs**同学提供的书源合集，[https://wxdjs.github.io/iFreeTimebookConfigs/](https://wxdjs.github.io/iFreeTimebookConfigs/)
-
-**乌冬肥大鸡**同学提供的书源，[https://gitee.com/heiji666/aiyue](https://gitee.com/heiji666/aiyue)
+书源作者 | 地址
+**相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs)
+**wxdjs** | [https://wxdjs.github.io/iFreeTimebookConfigs/](https://wxdjs.github.io/iFreeTimebookConfigs/)
+**乌冬肥大鸡** | [https://gitee.com/heiji666/aiyue](https://gitee.com/heiji666/aiyue)
+**踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books)
 
 ## 导入书源的方式
-请安装最新版本，在**书源配置**界面上使用**同步**功能，将相应的git项目地址复制上去就可以了。
 
-也可以复制书源的内容或者是书源对应的URL后，使用**导入剪切板信息**的功能来导入。
+有非常多的方式导入书源，以下列举几种：
+### 一鍵导入方式（6.2.0版本之后提供的新功能）
+1. 在书架的右上角菜单，选择**书源配置**。
+2. 打开右上角的**同步**，输入书源合集地址（如https://gitee.com/ift123/iFreeTimeBookConfigs），可输入多个地址。
+3. 点击获取书源配置，等处理完后将**弹出**一个导入界面。
+4. 点击右上角的**一键导入**就可以了。
+
+ps：<br>
+此方式能保存书源地址，后续需要更新时，只需要点击**获取书源配置**就可以了，**推荐**使用。
+
+### JSON书源文件导入方式
+1. QQ群文件中下载**JSON书源**或字体。
+2. 直接**用其它应用打开**，
+3. 选择**拷贝到爱阅书香**即可。
+
+### 复制书源内容或URL
+1. 复制书源的**URL或内容**
+2. 在书架的右上角菜单，选择**书源配置**。
+3. 在书源配置界面上的右上角菜单，选择**导入剪切板中的信息**
+
 
 
 书源并非越多越好，满足你的需求就够了。
