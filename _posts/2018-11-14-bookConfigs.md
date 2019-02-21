@@ -28,7 +28,7 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 
 书源作者 | 地址
 **相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs)
-**wxdjs** | [https://wxdjs.github.io/iFreeTimebookConfigs/](https://wxdjs.github.io/iFreeTimebookConfigs/)
+**wxdjs** | [https://github.com/wxdjs/iFreeTimebookConfigs](https://github.com/wxdjs/iFreeTimebookConfigs)
 **乌冬肥大鸡** | [https://gitee.com/heiji666/aiyue](https://gitee.com/heiji666/aiyue)
 **踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books)
 
