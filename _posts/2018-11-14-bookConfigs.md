@@ -32,6 +32,7 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 **乌冬肥大鸡** | [https://gitee.com/heiji666/aiyue](https://gitee.com/heiji666/aiyue)
 **踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books)
 **Superman** | [https://gitee.com/superman1024/iFreeTimeBooks](https://gitee.com/superman1024/iFreeTimeBooks)
+**奪情畢自斃** | [https://y154541000.github.io/BookConfig/](https://y154541000.github.io/BookConfig/)
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
 
