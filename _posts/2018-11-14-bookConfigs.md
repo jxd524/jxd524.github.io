@@ -34,9 +34,8 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 **Superman** | [https://gitee.com/superman1024/iFreeTimeBooks](https://gitee.com/superman1024/iFreeTimeBooks)
 **奪情畢自斃** | [https://y154541000.github.io/BookConfig/](https://y154541000.github.io/BookConfig/)
 
-若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
 
-ps:
+若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
 
 ## 导入书源的方式
 
