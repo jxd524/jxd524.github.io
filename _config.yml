@@ -9,7 +9,7 @@
 title: 技术源于生活,服务生活
 brief-intro: Terry 随笔
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://icc.one" # the base hostname & protocol for your site
+# url: "https://icc.one" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
