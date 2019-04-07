@@ -23,6 +23,7 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 
 
 书源收集（按发给我的时间为顺序）
+点击导入无反应的，请使用苹果手机自带的浏览器safari打开。
 
 书源作者 | 地址 | 操作
 **相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/ift123/iFreeTimeBookConfigs)
