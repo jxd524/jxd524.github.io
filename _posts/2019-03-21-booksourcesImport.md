@@ -24,14 +24,12 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 
 书源收集（按发给我的时间为顺序）
 
-书源作者 | 地址
-**相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs)
-**wxdjs** | [https://github.com/wxdjs/iFreeTimebookConfigs](https://github.com/wxdjs/iFreeTimebookConfigs)
-**乌冬肥大鸡** | [https://gitee.com/heiji666/aiyue](https://gitee.com/heiji666/aiyue)
-**踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books)
-**Superman** | [https://gitee.com/superman1024/iFreeTimeBooks](https://gitee.com/superman1024/iFreeTimeBooks)
-**奪情畢自斃** | [https://y154541000.github.io/BookConfig/](https://y154541000.github.io/BookConfig/)
-
+书源作者 | 地址 | 操作
+**相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/ift123/iFreeTimeBookConfigs)
+**wxdjs** | [https://github.com/wxdjs/iFreeTimebookConfigs](https://github.com/wxdjs/iFreeTimebookConfigs) | [点击导入](ifreetime://configs/https://github.com/wxdjs/iFreeTimebookConfigs)
+**踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books) | [点击导入](ifreetime://configs/https://gitee.com/q7478729/books)
+**Superman** | [https://gitee.com/superman1024/iFreeTimeBooks](https://gitee.com/superman1024/iFreeTimeBooks) | [点击导入](ifreetime://configs/https://gitee.com/superman1024/iFreeTimeBooks)
+**奪情畢自斃** | [https://y154541000.github.io/BookConfig/](https://y154541000.github.io/BookConfig/) | [点击导入](ifreetime://configs/https://y154541000.github.io/BookConfig/)
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
 
