@@ -32,6 +32,7 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 **踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books) | [点击导入](ifreetime://configs/https://gitee.com/q7478729/books)
 **Superman** | [https://gitee.com/superman1024/iFreeTimeBooks](https://gitee.com/superman1024/iFreeTimeBooks) | [点击导入](ifreetime://configs/https://gitee.com/superman1024/iFreeTimeBooks)
 **奪情畢自斃** | [https://gitee.com/qzlivn/BookConfig](https://gitee.com/qzlivn/BookConfig) | [点击导入](ifreetime://configs/https://gitee.com/qzlivn/BookConfig)
+**abc君** | [https://gitee.com/weiniff/ibooks](https://gitee.com/weiniff/ibooks) | [点击导入](ifreetime://configs/https://gitee.com/weiniff/ibooks)
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
