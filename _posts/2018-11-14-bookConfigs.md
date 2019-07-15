@@ -35,6 +35,8 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 **abc君** | [https://gitee.com/weiniff/ibooks](https://gitee.com/weiniff/ibooks) | [点击导入](ifreetime://configs/https://gitee.com/weiniff/ibooks)
 **BlackTouma** | [https://github.com/BlackTouma/iFreeTimeBookConfigs](https://github.com/BlackTouma/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/BlackTouma/iFreeTimeBookConfigs)
 **gangxiaoji** | [https://github.com/gangxiaoji/bookConfigs](https://github.com/gangxiaoji/bookConfigs) | [点击导入](ifreetime://configs/https://github.com/gangxiaoji/bookConfigs)
+**wangyingbo** | [https://github.com/wangyingbo/iFreeTimeBookConfigs](https://github.com/wangyingbo/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/wangyingbo/iFreeTimeBookConfigs)
+
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
