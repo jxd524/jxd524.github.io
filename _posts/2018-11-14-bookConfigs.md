@@ -36,11 +36,13 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 **BlackTouma** | [https://github.com/BlackTouma/iFreeTimeBookConfigs](https://github.com/BlackTouma/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/BlackTouma/iFreeTimeBookConfigs)
 **gangxiaoji** | [https://github.com/gangxiaoji/bookConfigs](https://github.com/gangxiaoji/bookConfigs) | [点击导入](ifreetime://configs/https://github.com/gangxiaoji/bookConfigs)
 **wangyingbo** | [https://github.com/wangyingbo/iFreeTimeBookConfigs](https://github.com/wangyingbo/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/wangyingbo/iFreeTimeBookConfigs)
-**feifeiadmim** | [https://gitee.com/feifeiadmim/bookyuan](https://gitee.com/feifeiadmim/book_yuan) | [点击导入](ifreetime://configs/https://gitee.com/feifeiadmim/book_yuan)
+**feifeiadmim** | [https://gitee.com/feifeiadmim/book_yuan](https://gitee.com/feifeiadmim/book_yuan) | [点击导入](ifreetime://configs/https://gitee.com/feifeiadmim/book_yuan)
 
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
+
+我将在博客及微信公众号(iosRead)上进行发布。
 
 ## 导入书源的方式
 
