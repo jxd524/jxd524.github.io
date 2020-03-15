@@ -28,16 +28,14 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 
 书源作者 | 地址 | 操作
 **相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/ift123/iFreeTimeBookConfigs)
-**wxdjs** | [https://github.com/wxdjs/iFreeTimebookConfigs](https://github.com/wxdjs/iFreeTimebookConfigs) | [点击导入](ifreetime://configs/https://github.com/wxdjs/iFreeTimebookConfigs)
-**踏雪流云** | [https://gitee.com/q7478729/books](https://gitee.com/q7478729/books) | [点击导入](ifreetime://configs/https://gitee.com/q7478729/books)
-**Superman** | [https://gitee.com/superman1024/iFreeTimeBooks](https://gitee.com/superman1024/iFreeTimeBooks) | [点击导入](ifreetime://configs/https://gitee.com/superman1024/iFreeTimeBooks)
-**奪情畢自斃** | [https://gitee.com/qzlivn/BookConfig](https://gitee.com/qzlivn/BookConfig) | [点击导入](ifreetime://configs/https://gitee.com/qzlivn/BookConfig)
+**wxdjs** | [https://gitee.com/wxdjs_sz/iFreeTimebookConfigs](https://gitee.com/wxdjs_sz/iFreeTimebookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/wxdjs_sz/iFreeTimebookConfigs)
 **abc君** | [https://gitee.com/weiniff/ibooks](https://gitee.com/weiniff/ibooks) | [点击导入](ifreetime://configs/https://gitee.com/weiniff/ibooks)
-**BlackTouma** | [https://github.com/BlackTouma/iFreeTimeBookConfigs](https://github.com/BlackTouma/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/BlackTouma/iFreeTimeBookConfigs)
-**gangxiaoji** | [https://github.com/gangxiaoji/bookConfigs](https://github.com/gangxiaoji/bookConfigs) | [点击导入](ifreetime://configs/https://github.com/gangxiaoji/bookConfigs)
-**wangyingbo** | [https://github.com/wangyingbo/iFreeTimeBookConfigs](https://github.com/wangyingbo/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/wangyingbo/iFreeTimeBookConfigs)
+**BlackTouma** | [https://gitee.com/BlackTouma/iFreeTimeBookConfigs](https://gitee.com/BlackTouma/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/BlackTouma/iFreeTimeBookConfigs)
+**纲吉** | [https://gitee.com/gangxiaoji/bookConfigs](https://gitee.com/gangxiaoji/bookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/gangxiaoji/bookConfigs)
 **feifeiadmim** | [https://gitee.com/feifeiadmim/book_yuan](https://gitee.com/feifeiadmim/book_yuan) | [点击导入](ifreetime://configs/https://gitee.com/feifeiadmim/book_yuan)
-
+**mm0809** | [https://github.com/mm0809/BUUK](https://github.com/mm0809/BUUK) | [点击导入](ifreetime://configs/https://github.com/mm0809/BUUK)
+**曙光** | [https://gitee.com/shu_guang_a/love_reading_books](https://gitee.com/shu_guang_a/love_reading_books) | [点击导入](ifreetime://configs/https://gitee.com/shu_guang_a/love_reading_books)
+**zxhzxhz** | [https://zxhzxhz.tk/booksource/](https://zxhzxhz.tk/booksource/) | [点击导入](ifreetime://config/https://zxhzxhz.tk/booksource/)
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
