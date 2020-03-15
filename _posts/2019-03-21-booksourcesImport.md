@@ -32,6 +32,7 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 **Superman** | [https://gitee.com/superman1024/iFreeTimeBooks](https://gitee.com/superman1024/iFreeTimeBooks) | [点击导入](ifreetime://configs/https://gitee.com/superman1024/iFreeTimeBooks)
 **奪情畢自斃** | [https://gitee.com/qzlivn/BookConfig](https://gitee.com/qzlivn/BookConfig) | [点击导入](ifreetime://configs/https://gitee.com/qzlivn/BookConfig)
 **abc君** | [https://gitee.com/weiniff/ibooks](https://gitee.com/weiniff/ibooks) | [点击导入](ifreetime://configs/https://gitee.com/weiniff/ibooks)
+**wangyingbo** | [https://gitee.com/wangyingbo/iFreeTimeBookConfigs](https://gitee.com/wangyingbo/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/wangyingbo/iFreeTimeBookConfigs)
 **BlackTouma** | [https://github.com/BlackTouma/iFreeTimeBookConfigs](https://github.com/BlackTouma/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/BlackTouma/iFreeTimeBookConfigs)
 **gangxiaoji** | [https://github.com/gangxiaoji/bookConfigs](https://github.com/gangxiaoji/bookConfigs) | [点击导入](ifreetime://configs/https://github.com/gangxiaoji/bookConfigs)
 **wangyingbo** | [https://github.com/wangyingbo/iFreeTimeBookConfigs](https://github.com/wangyingbo/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/wangyingbo/iFreeTimeBookConfigs)
