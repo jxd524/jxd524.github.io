@@ -45,7 +45,7 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 **feifeiadmim** | [https://gitee.com/feifeiadmim/book_yuan](https://gitee.com/feifeiadmim/book_yuan) | [点击导入](ifreetime://configs/https://gitee.com/feifeiadmim/book_yuan)
 **mm0809** | [https://github.com/mm0809/BUUK](https://github.com/mm0809/BUUK) | [点击导入](ifreetime://configs/https://github.com/mm0809/BUUK)
 **曙光** | [https://gitee.com/shu_guang_a/love_reading_books](https://gitee.com/shu_guang_a/love_reading_books) | [点击导入](ifreetime://configs/https://gitee.com/shu_guang_a/love_reading_books)
-**zxhzxhz** | [https://zxhzxhz.tk/booksource/](https://zxhzxhz.tk/booksource/) | [点击导入](ifreetime://config/https://zxhzxhz.tk/booksource/)
+**zxhzxhz** | [https://zxhzxhz.tk/booksource/](https://zxhzxhz.tk/booksource/) | [点击导入](ifreetime://configs/https://zxhzxhz.tk/booksource/)
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
