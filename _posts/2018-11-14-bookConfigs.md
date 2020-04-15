@@ -24,22 +24,23 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 
 
 
-书源收集（按发给我的时间为顺序）
+点击导入无反应的，请使用苹果手机自带的浏览器safari打开。 
 
 书源作者 | 地址 | 操作
 **相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/ift123/iFreeTimeBookConfigs)
 **wxdjs** | [https://gitee.com/wxdjs_sz/iFreeTimebookConfigs](https://gitee.com/wxdjs_sz/iFreeTimebookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/wxdjs_sz/iFreeTimebookConfigs)
 **abc君** | [https://gitee.com/weiniff/ibooks](https://gitee.com/weiniff/ibooks) | [点击导入](ifreetime://configs/https://gitee.com/weiniff/ibooks)
+**wangyingbo** | [https://gitee.com/wangyingbo/iFreeTimeBookConfigs](https://gitee.com/wangyingbo/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/wangyingbo/iFreeTimeBookConfigs)
 **BlackTouma** | [https://gitee.com/BlackTouma/iFreeTimeBookConfigs](https://gitee.com/BlackTouma/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/BlackTouma/iFreeTimeBookConfigs)
 **纲吉** | [https://gitee.com/gangxiaoji/bookConfigs](https://gitee.com/gangxiaoji/bookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/gangxiaoji/bookConfigs)
 **feifeiadmim** | [https://gitee.com/feifeiadmim/book_yuan](https://gitee.com/feifeiadmim/book_yuan) | [点击导入](ifreetime://configs/https://gitee.com/feifeiadmim/book_yuan)
 **mm0809** | [https://github.com/mm0809/BUUK](https://github.com/mm0809/BUUK) | [点击导入](ifreetime://configs/https://github.com/mm0809/BUUK)
 **曙光** | [https://gitee.com/shu_guang_a/love_reading_books](https://gitee.com/shu_guang_a/love_reading_books) | [点击导入](ifreetime://configs/https://gitee.com/shu_guang_a/love_reading_books)
 **zxhzxhz** | [https://zxhzxhz.tk/booksource/](https://zxhzxhz.tk/booksource/) | [点击导入](ifreetime://configs/https://zxhzxhz.tk/booksource/)
+**Mxy** | [https://gitee.com/mxyseo/iosread](https://gitee.com/mxyseo/iosread) | [点击导入](ifreetime://configs/https://gitee.com/mxyseo/iosread)
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
-
 我将在博客及微信公众号(iosRead)上进行发布。
 
 ## 导入书源的方式
