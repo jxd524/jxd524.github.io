@@ -23,6 +23,8 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 
 
 
+（按发给我的时间为顺序）
+
 点击导入无反应的，请使用苹果手机自带的浏览器safari打开。 
 
 书源作者 | 地址 | 操作
@@ -36,10 +38,13 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 **mm0809** | [https://github.com/mm0809/BUUK](https://github.com/mm0809/BUUK) | [点击导入](ifreetime://configs/https://github.com/mm0809/BUUK)
 **曙光** | [https://gitee.com/shu_guang_a/love_reading_books](https://gitee.com/shu_guang_a/love_reading_books) | [点击导入](ifreetime://configs/https://gitee.com/shu_guang_a/love_reading_books)
 **zxhzxhz** | [https://zxhzxhz.tk/booksource/](https://zxhzxhz.tk/booksource/) | [点击导入](ifreetime://configs/https://zxhzxhz.tk/booksource/)
+**Liquor030** | [https://github.com/Liquor030/iFreeTimeBookConfigs](https://github.com/Liquor030/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://github.com/Liquor030/iFreeTimeBookConfigs)
 **Mxy** | [https://gitee.com/mxyseo/iosread](https://gitee.com/mxyseo/iosread) | [点击导入](ifreetime://configs/https://gitee.com/mxyseo/iosread)
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
 我会在博客与公众号（iosRead）上进行发布
+
+
 
 
 ## 导入书源的方式
