@@ -81,3 +81,78 @@ tags: 模拟器
 1. 爱阅书香帐号均有安全保护功能，请妥善保管您的用户名及密码信息。爱阅书香将通过对用户密码进行加密等安全措施确保您的信息不丢失，不被滥用和变造。尽管有前述安全措施，但同时也请您注意在信息网络上不存在“完善的安全措施”。
 
 2. 在使用爱阅书香网络服务进行网上交易时，您不可避免的要向交易对方或潜在的交易对方披露自己的个人信息，如联络方式或者邮政地址。请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是爱阅书香用户名及密码发生泄露，请您立即联络爱阅书香客服，以便爱阅书香采取相应措施。
+
+
+
+
+
+
+# Privacy Policy
+iFreeTime respects and protects the personal privacy of all service users. In order to provide you with more accurate and personalized services, Aiyue Shuxiang will use and disclose your personal information in accordance with the provisions of this privacy policy. But iFreeTime will treat this information with a high degree of diligence and prudence. Except as otherwise provided in this privacy policy, iYue Shuxiang will not disclose this information or provide it to a third party without your prior permission. Aiyue Shuxiang will update this privacy policy from time to time. When you agree to the service use agreement of iFreeTime, you are deemed to have agreed to the entire content of this privacy policy. This privacy policy is an inseparable part of the service use agreement of iFreeTime.
+
+
+
+
+
+
+
+## One: scope of application
+
+1. When you register for the Ayue Shuxiang account, you provide personal registration information according to the requirements of Ayyue Shuxiang;
+
+2. When you use the Ayueshuxiang network service or visit the Ayyueshuxiang platform webpage, the information on your browser and computer that is automatically received and recorded by Ayyueshuxiang, including but not limited to your IP address, browser type, Data such as the language used, the date and time of the visit, the characteristics of software and hardware, and the webpage records you require;
+
+3. The personal data of users obtained from business partners through legal channels.
+
+You understand and agree that the following information does not apply to this privacy policy:
+
+4. Keyword information you enter when using the search service provided by the iFreeTime Shuxiang platform;
+
+5. The relevant information and data collected by Aiyue Shuxiang that you publish in Aiyue Shuxiang, including but not limited to participation in activities, transaction information and evaluation details;
+
+6. Violation of the law or violation of the rules of Aiyushuxiang and the measures that Aiyushuxiang has taken against you.
+
+## Two: Information Use
+
+1. iFreeTime will not provide, sell, rent, share or trade your personal information to any unrelated third party, unless you have obtained your permission in advance, or the third party and iFreeTime (including iFreeTime affiliates) individually or jointly To provide you with a service, and after the service ends, it will be prohibited from accessing all these materials that it was able to access before.
+
+2. iFreeTime also does not allow any third party to collect, edit, sell or disseminate your personal information by any means. If any user of the iFreeTime platform engages in the above activities, once discovered, iFreeTime has the right to immediately terminate the service agreement with the user.
+
+3. For the purpose of serving users, iFreeTime may use your personal information to provide you with information of interest to you, including but not limited to sending you product and service information, or sharing information with iFreeTime’s partners so that they can provide You send information about its products and services (the latter requires your prior consent).
+
+## Three: Information Disclosure
+
+Under the following circumstances, Aiyue Shuxiang will disclose your personal information in whole or in part in accordance with your personal wishes or legal requirements:
+
+1. With your prior consent, disclose to third parties;
+
+2. In order to provide the products and services you request, you must share your personal information with third parties;
+
+3. Disclosure to a third party or administrative or judicial organization in accordance with the relevant provisions of the law or the requirements of administrative or judicial institutions;
+
+4. If you violate the relevant laws, regulations, or the service agreement or related rules of Ayue Shuxiang, you need to disclose to a third party;
+
+5. If you are a qualified intellectual property complaint and have filed a complaint, you should disclose it to the respondent at the request of the respondent, so that both parties can deal with possible rights disputes;
+
+6. In a transaction created on the iFreeTime platform, if any party to the transaction fulfills or partially fulfills the transaction obligation and requests for information disclosure, iFreeTime has the right to decide to provide the user with the necessary information such as the contact information of the counterparty. , To facilitate the completion of the transaction or the settlement of disputes.
+
+7. Other Iyue Shuxiang deems appropriate disclosures in accordance with laws, regulations or website policies.
+
+## Four: Information storage and exchange
+
+The information and materials about you collected by iFreeTime will be stored on the servers of iFreeTime and/or its affiliates. This information and data may be sent to your country, region or the place where iFreeTime collects information and data Visited, stored and displayed outside of the country.
+
+## Five: Use of Cookies
+
+1. In the case that you do not refuse to accept cookies, iYueshuxiang will set or access cookies on your computer so that you can log in or use the services or functions of iyueshuxiang platform that rely on cookies. iFreeTime uses cookies to provide you with more thoughtful and personalized services, including promotional services.
+
+2. You have the right to choose to accept or refuse to accept cookies. You can refuse to accept cookies by modifying your browser settings. However, if you choose to refuse to accept cookies, you may not be able to log in or use the services or functions of the iFreeTime network that rely on cookies.
+
+3. This policy will apply to the relevant information obtained through the cookies set by iYue Shuxiang.
+
+## Six: Information Security
+
+1. The iFreeTime account has security protection function, please keep your user name and password information properly. iFreeTime will ensure that your information is not lost, abused or altered by encrypting user passwords and other security measures. Despite the aforementioned security measures, please note that there is no "perfect security measure" on the information network.
+
+2. When using the iYueshuxiang network service to conduct online transactions, you will inevitably disclose your personal information, such as contact information or postal address, to the counterparty or potential counterparty. Please properly protect your personal information and only provide it to others when necessary. If you find that your personal information has been leaked, especially if the user name and password of Aiyushuxiang have been leaked, please contact Aiyushuxiang customer service immediately so that Aiyushuxiang can take corresponding measures.
+2
