@@ -48,6 +48,8 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 **zxhzxhz** | [https://gitee.com/zxhzxhz/booksource](https://gitee.com/zxhzxhz/booksource) | [点击导入](ifreetime://configs/https://gitee.com/zxhzxhz/booksource)
 **Liquor030** | [https://gitee.com/Liquor030/iFreeTimeBookConfigs](https://gitee.com/Liquor030/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/Liquor030/iFreeTimeBookConfigs)
 **Mxy** | [https://gitee.com/mxyseo/iosread](https://gitee.com/mxyseo/iosread) | [点击导入](ifreetime://configs/https://gitee.com/mxyseo/iosread)
+**灰太狼** | [https://gitee.com/Good_Grey_Wolf/love_reading](https://gitee.com/Good_Grey_Wolf/love_reading) | [点击导入](ifreetime://configs/https://gitee.com/Good_Grey_Wolf/love_reading)
+
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
 我会在博客与公众号（iosRead）上进行发布
