@@ -38,6 +38,8 @@ tags: 书源配置 爱阅书香 自定义来源 教程
 **曙光** | [https://gitee.com/shu_guang_a/love_reading_books](https://gitee.com/shu_guang_a/love_reading_books) | [点击导入](ifreetime://configs/https://gitee.com/shu_guang_a/love_reading_books)
 **zxhzxhz** | [https://zxhzxhz.tk/booksource/](https://zxhzxhz.tk/booksource/) | [点击导入](ifreetime://configs/https://zxhzxhz.tk/booksource/)
 **Mxy** | [https://gitee.com/mxyseo/iosread](https://gitee.com/mxyseo/iosread) | [点击导入](ifreetime://configs/https://gitee.com/mxyseo/iosread)
+**灰太狼** | [https://gitee.com/Good_Grey_Wolf/love_reading](https://gitee.com/Good_Grey_Wolf/love_reading) | [点击导入](ifreetime://configs/https://gitee.com/Good_Grey_Wolf/love_reading)
+
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
