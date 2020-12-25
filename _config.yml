@@ -8,8 +8,9 @@
 # Site settings
 title: 技术源于生活,服务生活
 brief-intro: Terry 随笔
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://icc.one" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 permalink: /:year/:month/:day/:title/
 
