@@ -37,18 +37,18 @@ tags: 书源配置 爱阅书香 导入 自定义来源 教程
 
 书源作者 | 地址 | 操作
 **相逢应不识** | [https://gitee.com/ift123/iFreeTimeBookConfigs](https://gitee.com/ift123/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/ift123/iFreeTimeBookConfigs)
-**wxdjs** | [https://gitee.com/wxdjs_sz/iFreeTimebookConfigs](https://gitee.com/wxdjs_sz/iFreeTimebookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/wxdjs_sz/iFreeTimebookConfigs)
 **abc君** | [https://gitee.com/weiniff/ibooks](https://gitee.com/weiniff/ibooks) | [点击导入](ifreetime://configs/https://gitee.com/weiniff/ibooks)
-**wangyingbo** | [https://gitee.com/wangyingbo/iFreeTimeBookConfigs](https://gitee.com/wangyingbo/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/wangyingbo/iFreeTimeBookConfigs)
 **BlackTouma** | [https://gitee.com/BlackTouma/iFreeTimeBookConfigs](https://gitee.com/BlackTouma/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/BlackTouma/iFreeTimeBookConfigs)
 **纲吉** | [https://gitee.com/gangxiaoji/bookConfigs](https://gitee.com/gangxiaoji/bookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/gangxiaoji/bookConfigs)
 **feifeiadmim** | [https://gitee.com/feifeiadmim/book_yuan](https://gitee.com/feifeiadmim/book_yuan) | [点击导入](ifreetime://configs/https://gitee.com/feifeiadmim/book_yuan)
-**mm0809** | [https://github.com/mm0809/BUUK](https://github.com/mm0809/BUUK) | [点击导入](ifreetime://configs/https://github.com/mm0809/BUUK)
-**曙光** | [https://gitee.com/shu_guang_a/love_reading_books](https://gitee.com/shu_guang_a/love_reading_books) | [点击导入](ifreetime://configs/https://gitee.com/shu_guang_a/love_reading_books)
+**曙光** | [https://gitee.com/shuguanga/aiyue](https://gitee.com/shuguanga/aiyue) | [点击导入](ifreetime://configs/https://gitee.com/shuguanga/aiyue)
 **zxhzxhz** | [https://gitee.com/zxhzxhz/booksource](https://gitee.com/zxhzxhz/booksource) | [点击导入](ifreetime://configs/https://gitee.com/zxhzxhz/booksource)
 **Liquor030** | [https://gitee.com/Liquor030/iFreeTimeBookConfigs](https://gitee.com/Liquor030/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/Liquor030/iFreeTimeBookConfigs)
 **Mxy** | [https://gitee.com/mxyseo/iosread](https://gitee.com/mxyseo/iosread) | [点击导入](ifreetime://configs/https://gitee.com/mxyseo/iosread)
-**灰太狼** | [https://gitee.com/Good_Grey_Wolf/love_reading](https://gitee.com/Good_Grey_Wolf/love_reading) | [点击导入](ifreetime://configs/https://gitee.com/Good_Grey_Wolf/love_reading)
+**灰太狼** | [https://gitee.com/Goodyaoshi/iFreeTimeBookConfigs](https://gitee.com/Goodyaoshi/iFreeTimeBookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/Goodyaoshi/iFreeTimeBookConfigs)
+**wjc是竟成** | [https://gitee.com/weijingcheng4/aiyueshuxiang](https://gitee.com/weijingcheng4/aiyueshuxiang) | [点击导入](ifreetime://configs/https://gitee.com/weijingcheng4/aiyueshuxiang)
+**在这** | [https://gitee.com/adolphz/iFreeTimebookConfigs](https://gitee.com/adolphz/iFreeTimebookConfigs) | [点击导入](ifreetime://configs/https://gitee.com/adolphz/iFreeTimebookConfigs)
+**bug退散** | [https://gitee.com/songshu079/i-free-timebook-configs](https://gitee.com/songshu079/i-free-timebook-configs) | [点击导入](ifreetime://configs/https://gitee.com/songshu079/i-free-timebook-configs)
 
 
 若你有自己的书源，并愿意共享给别人使用，请将地址发给我。谢谢。
